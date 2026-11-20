@@ -1,0 +1,504 @@
+[
+  {
+    "name": "Paystack",
+    "industry": "Fintech",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "summary": "Builds modern online and offline payment acceptance APIs, settlement rails, and merchant payout tools across Africa.",
+    "programs": [
+      "Computer Science",
+      "Software Engineering",
+      "Finance"
+    ],
+    "skills": [
+      "Go",
+      "TypeScript",
+      "SQL",
+      "Docker",
+      "Linux"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Flutterwave",
+    "industry": "Fintech",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "summary": "Operates cross-border payment infrastructure, treasury workflows, and enterprise checkout services for global and African businesses.",
+    "programs": [
+      "Computer Science",
+      "Finance",
+      "Business Administration",
+      "Information Technology"
+    ],
+    "skills": [
+      "Go",
+      "Python",
+      "SQL",
+      "Financial Modeling",
+      "Data Analysis"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Hubtel",
+    "industry": "Fintech",
+    "city": "Accra",
+    "country": "Ghana",
+    "summary": "Delivers mobile money aggregation, point-of-sale payment platforms, and enterprise messaging solutions for Ghanaian merchants.",
+    "programs": [
+      "Software Engineering",
+      "Computer Science",
+      "Business Administration",
+      "Finance"
+    ],
+    "skills": [
+      "TypeScript",
+      "SQL",
+      "Docker",
+      "Financial Modeling",
+      "Data Analysis"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "mPharma",
+    "industry": "Healthcare",
+    "city": "Accra",
+    "country": "Ghana",
+    "summary": "Manages prescription supply chains, community pharmacy inventory financing, and clinical diagnostics data across African health networks.",
+    "programs": [
+      "Biomedical Engineering",
+      "Data Science",
+      "Software Engineering",
+      "Business Administration"
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "Data Analysis",
+      "TypeScript"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Zipline",
+    "industry": "Logistics",
+    "city": "Accra",
+    "country": "Ghana",
+    "summary": "Designs and operates autonomous electric aircraft delivery networks transporting blood products, vaccines, and medical supplies on demand.",
+    "programs": [
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Computer Science",
+      "Biomedical Engineering"
+    ],
+    "skills": [
+      "Embedded C",
+      "Python",
+      "CAD",
+      "Linux"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Turntabl",
+    "industry": "Software",
+    "city": "Accra",
+    "country": "Ghana",
+    "summary": "Partners with global financial and technology teams to engineer distributed backend services, cloud platforms, and developer tooling.",
+    "programs": [
+      "Computer Science",
+      "Software Engineering",
+      "Information Technology"
+    ],
+    "skills": [
+      "Go",
+      "TypeScript",
+      "Docker",
+      "Linux",
+      "SQL"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Kumasi Hive",
+    "industry": "Clean Energy",
+    "city": "Kumasi",
+    "country": "Ghana",
+    "summary": "Develops solar micro-grid hardware, battery management electronics, and locally manufactured IoT sensors for off-grid communities.",
+    "programs": [
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Computer Science"
+    ],
+    "skills": [
+      "Embedded C",
+      "CAD",
+      "Python",
+      "Linux"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Farmerline",
+    "industry": "AgriTech",
+    "city": "Kumasi",
+    "country": "Ghana",
+    "summary": "Connects smallholder farmers to weather intelligence, agronomy advisories, input financing, and traceable global market access.",
+    "programs": [
+      "Data Science",
+      "Software Engineering",
+      "Business Administration"
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "Data Analysis",
+      "TypeScript"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Suame Tech Manufacturing",
+    "industry": "Manufacturing",
+    "city": "Kumasi",
+    "country": "Ghana",
+    "summary": "Engineers precision agricultural machinery components, industrial fabrication tooling, and automated quality-inspection fixtures.",
+    "programs": [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Business Administration"
+    ],
+    "skills": [
+      "CAD",
+      "Embedded C",
+      "Data Analysis"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Safaricom",
+    "industry": "Telecommunications",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "summary": "Operates East Africa's flagship mobile network, 5G core infrastructure, enterprise cloud connectivity, and M-PESA ecosystem platforms.",
+    "programs": [
+      "Electrical Engineering",
+      "Information Technology",
+      "Computer Science",
+      "Finance"
+    ],
+    "skills": [
+      "Linux",
+      "Go",
+      "SQL",
+      "Docker",
+      "Financial Modeling"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "M-KOPA",
+    "industry": "Clean Energy",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "summary": "Combines connected solar home systems, electric mobility financing, and IoT telemetry platforms for underbanked households.",
+    "programs": [
+      "Data Science",
+      "Electrical Engineering",
+      "Finance",
+      "Software Engineering"
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "Data Analysis",
+      "Financial Modeling",
+      "Embedded C"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Lori Systems",
+    "industry": "Logistics",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "summary": "Coordinates continental cargo haulage, fleet route optimization, and port-to-warehouse freight visibility across East and West Africa.",
+    "programs": [
+      "Software Engineering",
+      "Data Science",
+      "Business Administration"
+    ],
+    "skills": [
+      "Go",
+      "Python",
+      "SQL",
+      "Data Analysis",
+      "Docker"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Ilara Health",
+    "industry": "Healthcare",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "summary": "Equips peri-urban primary care clinics with point-of-care diagnostic devices, biomedical maintenance, and electronic practice software.",
+    "programs": [
+      "Biomedical Engineering",
+      "Information Technology",
+      "Software Engineering"
+    ],
+    "skills": [
+      "TypeScript",
+      "Python",
+      "SQL",
+      "Data Analysis"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Andela",
+    "industry": "Software",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "summary": "Builds distributed engineering teams and AI-assisted talent matching platforms serving cloud-native product organizations worldwide.",
+    "programs": [
+      "Computer Science",
+      "Software Engineering",
+      "Data Science"
+    ],
+    "skills": [
+      "Go",
+      "TypeScript",
+      "Python",
+      "Docker",
+      "SQL"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "MTN Nigeria",
+    "industry": "Telecommunications",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "summary": "Delivers nationwide fiber backhaul, mobile packet core engineering, enterprise network operations, and digital service APIs.",
+    "programs": [
+      "Electrical Engineering",
+      "Information Technology",
+      "Computer Science"
+    ],
+    "skills": [
+      "Linux",
+      "Docker",
+      "Python",
+      "SQL"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "InstaDeep",
+    "industry": "Data & AI",
+    "city": "Kigali",
+    "country": "Rwanda",
+    "summary": "Researches and deploys reinforcement learning, protein design models, and high-performance machine learning systems.",
+    "programs": [
+      "Data Science",
+      "Computer Science",
+      "Biomedical Engineering"
+    ],
+    "skills": [
+      "Python",
+      "Linux",
+      "Docker",
+      "Data Analysis",
+      "SQL"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Ampersand",
+    "industry": "Clean Energy",
+    "city": "Kigali",
+    "country": "Rwanda",
+    "summary": "Manufactures commercial electric motorcycles and operates automated battery-swap stations powered by telemetry analytics.",
+    "programs": [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Data Science"
+    ],
+    "skills": [
+      "CAD",
+      "Embedded C",
+      "Python",
+      "Data Analysis"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Irembo",
+    "industry": "Software",
+    "city": "Kigali",
+    "country": "Rwanda",
+    "summary": "Builds high-availability public digital infrastructure, citizen identity workflows, and e-government payment services.",
+    "programs": [
+      "Software Engineering",
+      "Computer Science",
+      "Information Technology"
+    ],
+    "skills": [
+      "Go",
+      "TypeScript",
+      "SQL",
+      "Docker",
+      "Linux"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Aerobotics",
+    "industry": "AgriTech",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "summary": "Applies drone imagery, computer vision, and orchard yield modeling to help tree-crop growers manage pests and irrigation.",
+    "programs": [
+      "Data Science",
+      "Computer Science",
+      "Software Engineering"
+    ],
+    "skills": [
+      "Python",
+      "TypeScript",
+      "SQL",
+      "Data Analysis",
+      "Docker"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Entersekt",
+    "industry": "Cybersecurity",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "summary": "Develops cryptographic device identity, passwordless authentication, and real-time payment fraud prevention for global banks.",
+    "programs": [
+      "Computer Science",
+      "Software Engineering",
+      "Information Technology"
+    ],
+    "skills": [
+      "Go",
+      "Linux",
+      "Docker",
+      "TypeScript",
+      "SQL"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Celonis",
+    "industry": "Data & AI",
+    "city": "Berlin",
+    "country": "Germany",
+    "summary": "Pioneers process mining and execution management platforms that uncover supply-chain and finance bottlenecks from enterprise event logs.",
+    "programs": [
+      "Computer Science",
+      "Data Science",
+      "Business Administration",
+      "Finance"
+    ],
+    "skills": [
+      "Go",
+      "Python",
+      "SQL",
+      "TypeScript",
+      "Data Analysis",
+      "Financial Modeling"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "Siemens Energy",
+    "industry": "Manufacturing",
+    "city": "Berlin",
+    "country": "Germany",
+    "summary": "Designs grid-scale power electronics, hydrogen electrolyzers, and industrial turbine control systems for clean power transmission.",
+    "programs": [
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Computer Science"
+    ],
+    "skills": [
+      "CAD",
+      "Embedded C",
+      "Linux",
+      "Python"
+    ],
+    "remote": false,
+    "active": true
+  },
+  {
+    "name": "Darktrace",
+    "industry": "Cybersecurity",
+    "city": "London",
+    "country": "United Kingdom",
+    "summary": "Builds autonomous network detection, cloud security telemetry, and threat response engines powered by self-learning anomaly models.",
+    "programs": [
+      "Computer Science",
+      "Information Technology",
+      "Data Science",
+      "Software Engineering"
+    ],
+    "skills": [
+      "Python",
+      "Go",
+      "Linux",
+      "Docker",
+      "Data Analysis"
+    ],
+    "remote": true,
+    "active": true
+  },
+  {
+    "name": "BenevolentAI",
+    "industry": "Data & AI",
+    "city": "London",
+    "country": "United Kingdom",
+    "summary": "Combines biomedical knowledge graphs and machine learning for target identification in drug discovery; internship intake currently paused.",
+    "programs": [
+      "Data Science",
+      "Biomedical Engineering",
+      "Computer Science"
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "Data Analysis",
+      "Docker"
+    ],
+    "remote": false,
+    "active": false
+  }
+]
