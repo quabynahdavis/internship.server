@@ -19,16 +19,26 @@ import (
 const shutdownTimeout = 10 * time.Second
 
 func main() {
-	if err := run(); err != nil {
+	signalContext, stop := signal.NotifyContext(
+		context.Background(),
+		os.Interrupt,
+		syscall.SIGTERM,
+	)
+	defer stop()
+
+	if err := run(signalContext); err != nil {
 		slog.Error("server stopped", "error", err)
 		os.Exit(1)
 	}
 }
 
-func run() error {
-	cfg := config.FromEnv()
+func run(ctx context.Context) error {
+	cfg, err := config.FromEnv()
+	if err != nil {
+		return fmt.Errorf("load configuration: %w", err)
+	}
 
-	db, err := appsqlite.Open(context.Background(), cfg.DBPath)
+	db, err := appsqlite.Open(ctx, cfg.DBPath)
 	if err != nil {
 		return fmt.Errorf("initialize database: %w", err)
 	}
@@ -40,20 +50,13 @@ func run() error {
 
 	server := &http.Server{
 		Addr:              cfg.HTTPAddress,
-		Handler:           httpapi.NewHandler(),
+		Handler:           httpapi.NewHandler(db, cfg.NationalIDPepper),
 		ReadHeaderTimeout: 5 * time.Second,
 		ReadTimeout:       10 * time.Second,
 		WriteTimeout:      10 * time.Second,
 		IdleTimeout:       60 * time.Second,
 		MaxHeaderBytes:    1 << 20,
 	}
-
-	signalContext, stop := signal.NotifyContext(
-		context.Background(),
-		os.Interrupt,
-		syscall.SIGTERM,
-	)
-	defer stop()
 
 	serverErrors := make(chan error, 1)
 	go func() {
@@ -67,7 +70,7 @@ func run() error {
 			return fmt.Errorf("serve HTTP: %w", err)
 		}
 		return nil
-	case <-signalContext.Done():
+	case <-ctx.Done():
 		slog.Info("shutting down HTTP server")
 	}
 
