@@ -13,6 +13,7 @@ import (
 
 	"internship/server/internal/config"
 	"internship/server/internal/httpapi"
+	appsqlite "internship/server/internal/sqlite"
 )
 
 const shutdownTimeout = 10 * time.Second
@@ -26,6 +27,17 @@ func main() {
 
 func run() error {
 	cfg := config.FromEnv()
+
+	db, err := appsqlite.Open(context.Background(), cfg.DBPath)
+	if err != nil {
+		return fmt.Errorf("initialize database: %w", err)
+	}
+	defer func() {
+		if err := db.Close(); err != nil {
+			slog.Error("close database", "error", err)
+		}
+	}()
+
 	server := &http.Server{
 		Addr:              cfg.HTTPAddress,
 		Handler:           httpapi.NewHandler(),
